@@ -1,2 +1,3 @@
 # devcamp-checkpoint1
-Checkpoint 1 grid exercises
+Checkpoint 1 
+  grid exercises
