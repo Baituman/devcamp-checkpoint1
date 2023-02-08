@@ -11,6 +11,7 @@ body{
     grid-template-columns: 1fr;
     gap: 20px;
     font-size: 1.5em;
+    margin-left: 50px;
     
 }
 
@@ -158,6 +159,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 3fr;
     padding: 20px;
+    color: antiquewhite;
 }
 
 .gridSix p{
