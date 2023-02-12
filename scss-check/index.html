@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.scss">
+    <title>Devcamp SCSS exercise</title>
+</head>
+<body>
+ <!-----Exercise 1: Task 1: Using HTML, create a div. Give it the class of “taskOne”. 
+    Inside this div, there should be one paragraph tag. 
+    Create an SCSS variable called “textColorOne”. This variable should store a color. 
+    Use the class to target the HTML div and use the SCSS variable to change the text color of the paragraph tag.
+     ------>
+
+     <div class="exercise1">
+        <div class="taskOne">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aperiam odio! Placeat dolor rem voluptatum nobis repellat consequuntur velit optio.</p>
+        </div>
+     </div>
+
+
+<div class="space-maker"><h1></h1></div>
+
+
+<!-----Exercise 2: Using HTML, create another div. Give it the class of “taskTwo”. 
+    Inside this div, create a paragraph tag. Using SCSS, create a mixin that includes the variable 
+    you already created. Set text color to equal the variable. Use the class to target the HTML div 
+    and include the SCSS Mixin, which will in turn apply the variable to change the paragraph tag’s text color.
+     ------>
+
+    <div class="exercise2">
+        <div class="taskTwo">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque nobis aliquid corrupti minus possimus perspiciatis facilis a iure aspernatur distinctio.</p>
+        </div>
+    </div>
+
+
+<div class="space-maker"><h1></h1></div>
+
+
+<!-------- Exercise 3: Using HTML, create another div. Give it the class of “taskThree”. 
+    Inside this div, create another div tag. Give it a class of “nestedDiv”. 
+    Inside this div tag there should be another p tag. Using SCSS nesting, style the text color to equal red. 
+    ------>
+
+    <div class="exercise3">
+        <div class="taskThree">
+            <div class="nestedDiv">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci obcaecati laboriosam neque hic nihil debitis nemo ipsa, voluptates iste voluptatibus.</p>
+            </div>
+        </div>
+    </div>
+
+
+<div class="space-maker"><h1></h1></div>
+
+
+<!-----------  Exercise 4: Create a new variable named “backgroundColorOne”. Store a hexidecimal of #237C95. 
+    Create a new mixin called “mixinTwo” using SCSS that turns background color to the new variable. 
+    Also include height and width definitions that are equivalent to 200px. Add a margin of 10px to all sides. 
+    Create two divs each with the class of “taskFour”. Include the new mixin and style “taskFour”..  
+    --------->
+
+
+    <div class="exercise4">
+        <div class="taskFour"></div>
+        <div class="taskFour"></div>
+    </div>
+
+
+<div class="space-maker"><h1></h1></div>
+
+
+<!-------- Exercise 5: Create a new variable named “backgroundImage”. In this variable, the name “maserati” 
+    should be stored. Make sure it is a string. Create a new div with the class of “taskFive”. 
+    Style the div by calling the class. Set the property background-image to the following: 
+    url('https://s3.amazonaws.com/bottega-devcamp/scss/cars/#{$backgroundImage}.jpg'). 
+    Set the width and height to 300px and set object-fit to fill. ---->
+
+
+    <div class="exercise5">
+        <div class="taskFive"></div>
+    </div>
+
+
+<div class="space-maker"><h1></h1></div>
+    
+</body>
+</html>
