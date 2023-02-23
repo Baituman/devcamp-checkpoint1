@@ -1,0 +1,42 @@
+/*------- Just a Div to separate the exercises------*/
+.space-maker > h1::after {
+  display: flex;
+  height: 50px;
+  content: " --------------------------------------------------------------- ";
+  color: black;
+  justify-content: center;
+}
+
+/*------- Exercise One------*/
+.taskOne {
+  color: rgb(101, 150, 101);
+  background-color: #237C95;
+}
+
+/*------- Exercise Two------*/
+.taskTwo {
+  color: rgb(101, 150, 101);
+}
+
+/*------- Exercise Three------*/
+.taskThree .nestedDiv p {
+  color: red;
+}
+
+/*------- Exercise Four------*/
+.taskFour {
+  background-color: #237C95;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+/*------- Exercise Five------*/
+.taskFive {
+  background-image: url("https://s3.amazonaws.com/bottega-devcamp/scss/cars/maserati.jpg");
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
+}
+
+/*# sourceMappingURL=main.css.map */
